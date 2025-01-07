@@ -1,0 +1,17 @@
+{
+  "name": "fundamentos-e-sintaxe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx",
+    "dev-watch": "tsx watch src/main.ts",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2"
+  }
+}
